@@ -1956,6 +1956,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -1964,7 +1988,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       moneyIn: 300,
-      moneyOut: 400
+      moneyOut: 200
     };
   },
   filters: {
@@ -2045,11 +2069,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
-});
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -2062,6 +2082,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -6584,7 +6605,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\narticle[data-v-0b1dd512] {\n    border-radius: 0.4rem;\n    border: 0.1rem solid var(--off-white);\n    max-width: 55rem;\n    margin-left: auto;\n    margin-right: auto;\n    padding: 3rem;\n    color: var(--text-light);\n    letter-spacing: 0.1rem;\n}\n\n", ""]);
+exports.push([module.i, "\n.polygon[data-v-0b1dd512] {\n    display: block;\n    height: 17rem;\n    background-color: lightgrey;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    -webkit-clip-path: polygon(8% 0, 100% 100%, 100% 0);\n            clip-path: polygon(8% 0, 100% 100%, 100% 0);\n    z-index: -1;\n}\n.links[data-v-0b1dd512] {\n    position: absolute;\n    top: 1.5rem;\n    right: 2rem;\n}\n.links a[data-v-0b1dd512] {\n    display: block;\n    padding: 0.3em;\n    z-index: 1;\n    position: relative;\n    text-align: right;\n}\n.links a[data-v-0b1dd512]::after {\n    position: absolute;\n    content: '';\n    top: 50%;\n    left: 101%;\n    height: 0.4rem;\n    width: 0.4rem;\n    border-radius: 50%;\n    transform: translateY(-50%);\n    opacity: 0;\n    transition: 0.5s all;\n}\n.links a[data-v-0b1dd512]:hover::after {\n    opacity: 1;\n}\n.links a[data-v-0b1dd512]:first-child::after {\n    background-color: var(--green);\n}\n.links a[data-v-0b1dd512]:first-child {\n    color: var(--green);\n}\n.links a[data-v-0b1dd512]:last-child::after {\n    background-color: var(--red);\n}\n.links a[data-v-0b1dd512]:last-child {\n    color: var(--red);\n}\n.flex[data-v-0b1dd512] {\n    display: flex;\n    margin-top: 2rem;\n}\n.circle[data-v-0b1dd512] {\n    height: 15rem;\n    width: 15rem;\n    border-radius: 50%;\n}\n.balance[data-v-0b1dd512] {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: var(--text-light);\n    margin-left: auto;\n    margin-right: auto;\n}\narticle[data-v-0b1dd512] {\n    position: relative;\n    border-radius: 0.4rem;\n    border: 0.1rem solid var(--off-white);\n    max-width: 50rem;\n    margin-left: auto;\n    margin-right: auto;\n    padding: 6rem 3rem;\n    letter-spacing: 0.1rem;\n    box-shadow: 0.2rem 0.2rem 2rem 0.2rem rgba(0, 0, 0, 0.1);\n}\narticle[data-v-0b1dd512]::after {\n    content: '';\n    display: block;\n    height: 3rem;\n}\narticle > p[data-v-0b1dd512] {\n    text-align: center;\n    margin-top: 3rem;\n}\n.in[data-v-0b1dd512] {\n    color: var(--blue);\n}\n.out[data-v-0b1dd512] {\n    color: var(--red);\n}\nul[data-v-0b1dd512] {\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    display: flex;\n    flex-wrap: wrap;\n    left: 0;\n    overflow: hidden;\n}\nul[data-v-0b1dd512], ul > li:last-child a[data-v-0b1dd512] {\n    border-radius: 0 0 0.4rem 0.4rem;\n}\nul > li[data-v-0b1dd512] {\n    flex: 1 0 calc(100% / 3);\n}\nul > li a[data-v-0b1dd512] {\n    white-space: nowrap;\n    display: block;\n    text-align: center;\n    color: var(--text-light);\n    border: 1px solid;\n    transition: 0.3s all;\n    position: relative;\n}\nul > li a[data-v-0b1dd512]:hover::after {\n    opacity: 1;\n    width: 10rem;\n    bottom: 0.8rem;\n}\nul > li a[data-v-0b1dd512]::after {\n    position: absolute;\n    bottom: 0.5rem;\n    content: '';\n    width: 2rem;\n    height: 0.1rem;\n    left: 50%;\n    transform: translateX(-50%);\n    background-color: var(--white);\n    opacity: 0;\n    transition: all 0.5s;\n}\n.red[data-v-0b1dd512] {\n    background-color: var(--red);\n    border-color: var(--red);\n}\n.blue[data-v-0b1dd512] {\n    background-color: var(--blue);\n    border-color: var(--blue);\n}\n.green[data-v-0b1dd512] {\n    background-color: var(--green);\n    border-color: var(--green);\n}\n\n", ""]);
 
 // exports
 
@@ -38590,14 +38611,58 @@ var render = function() {
     [
       _c("header-list"),
       _vm._v(" "),
-      _c("article", { style: { "background-color": _vm.bgColor } }, [
-        _c("h1", [
-          _vm._v("Account Balance: " + _vm._s(_vm._f("money")(_vm.balance)))
+      _c("article", [
+        _c("div", { staticClass: "polygon" }),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "links" },
+          [
+            _c("router-link", { attrs: { to: "/" } }, [
+              _vm._v("\n                15 Players in credit\n            ")
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/" } }, [
+              _vm._v("\n                20 Players in debt\n            ")
+            ])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "circle balance",
+            style: { backgroundColor: _vm.bgColor }
+          },
+          [_c("h1", [_vm._v(_vm._s(_vm._f("money")(_vm.balance)))])]
+        ),
+        _vm._v(" "),
+        _c("p", { staticClass: "in" }, [
+          _vm._v("In: " + _vm._s(_vm._f("money")(_vm.moneyIn)))
         ]),
         _vm._v(" "),
-        _c("p", [_vm._v("In: " + _vm._s(_vm._f("money")(_vm.moneyIn)))]),
+        _c("p", { staticClass: "out" }, [
+          _vm._v("Out: " + _vm._s(_vm._f("money")(_vm.moneyOut)))
+        ]),
         _vm._v(" "),
-        _c("p", [_vm._v("Out: " + _vm._s(_vm._f("money")(_vm.moneyOut)))])
+        _c("ul", [
+          _c(
+            "li",
+            [
+              _c(
+                "router-link",
+                { staticClass: "btn blue", attrs: { to: "/" } },
+                [
+                  _vm._v(
+                    "\n                    30 Upcoming events\n                "
+                  )
+                ]
+              )
+            ],
+            1
+          )
+        ])
       ])
     ],
     1
@@ -38685,18 +38750,13 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", [
-      _c("table", [_vm._v("\n            ajkasdghfkjhdsfgkljsdhflgkjh\n    ")])
+  return _c("section", [
+    _c("table", [
+      _vm._v("\n        " + _vm._s(_vm.$route.params.table) + "\n    ")
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -38725,7 +38785,10 @@ var render = function() {
         "router-link",
         {
           staticClass: "btn",
-          attrs: { to: { name: "table", params: { table: _vm.table } } }
+          attrs: {
+            to: { name: "table", params: { table: _vm.table } },
+            blud: "hi"
+          }
         },
         [_vm._v("\n        " + _vm._s(_vm.text) + "\n    ")]
       )
@@ -54646,7 +54709,7 @@ var routes = [{
   component: _components_TableView__WEBPACK_IMPORTED_MODULE_0__["default"],
   name: 'table'
 }, {
-  path: '/single/:table/:id',
+  path: '/:table/:id',
   component: _components_Single__WEBPACK_IMPORTED_MODULE_2__["default"],
   name: 'single'
 }];

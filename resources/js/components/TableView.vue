@@ -2,7 +2,7 @@
 
     <section>
         <table>
-                ajkasdghfkjhdsfgkljsdhflgkjh
+            {{ $route.params.table }}
         </table>
     </section>
 
@@ -10,9 +10,6 @@
 
 <script>
     export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
     }
 </script>
 

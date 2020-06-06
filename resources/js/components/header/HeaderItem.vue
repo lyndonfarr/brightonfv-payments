@@ -4,6 +4,7 @@
         <router-link
             class="btn"
             :to="{ name: 'table', params: { table } }"
+            blud="hi"
         >
             {{ text }}
         </router-link>

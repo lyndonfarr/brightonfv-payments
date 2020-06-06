@@ -15,7 +15,7 @@ const routes = [
         name: 'table'
     },
     {
-        path: '/single/:table/:id',
+        path: '/:table/:id',
         component: Single,
         name: 'single'
     }
