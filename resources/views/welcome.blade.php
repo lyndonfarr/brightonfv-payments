@@ -6,6 +6,8 @@
 
         <title>BFV Payments</title>
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400&display=swap" rel="stylesheet">
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>

@@ -1,20 +1,28 @@
-import PrimaryComponent from './components/PrimaryComponent'
-// import Single from './components/Single'
+import TableView from './components/TableView'
+import Account from './components/Account'
+import Single from './components/Single'
 import VueRouter from 'vue-router'
 
 const routes = [
     {
         path: '/',
-        component: PrimaryComponent,
+        component: Account,
         name: 'home'
     },
-    // {
-    //     path: '/single',
-    //     component: Single,
-    // }
+    {
+        path: '/:table',
+        component: TableView,
+        name: 'table'
+    },
+    {
+        path: '/single/:table/:id',
+        component: Single,
+        name: 'single'
+    }
 ]
 
 const router = new VueRouter({
+    mode: 'history',
     routes
 })
 
